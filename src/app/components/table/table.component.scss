@@ -1,0 +1,96 @@
+/* Botón de regreso con estilo minimalista en rojo */
+button[routerLink] {
+  padding: 8px 15px; /* Aumento del padding */
+  font-size: 1rem; /* Tamaño de fuente más grande */
+  background-color: #f44336; /* Color rojo */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Bordes más redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Añadido efecto de transformación */
+
+  &:hover {
+      background-color: #d32f2f; /* Rojo más oscuro */
+      transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+  }
+}
+
+.pokemon-table-container {
+  max-width: 1200px;
+  margin: 2rem auto; /* Aumento del margen superior */
+  padding: 30px; /* Aumento del padding */
+  background: #ffffff; /* Fondo blanco para mayor claridad */
+  border-radius: 12px; /* Bordes más redondeados */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+
+  h2 {
+      text-align: center;
+      font-size: 2.5rem; /* Tamaño de fuente más grande */
+      margin-bottom: 30px; /* Aumento del margen inferior */
+      color: #4a90e2; /* Color azul más suave */
+      text-transform: uppercase;
+      font-weight: 700; /* Mayor negrita */
+  }
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th {
+          background-color: #4a90e2; /* Color de encabezado más suave */
+          color: #ffffff;
+          font-size: 1.1rem; /* Tamaño de fuente más grande */
+          text-align: left;
+          padding: 15px; /* Aumento del padding */
+          text-transform: uppercase;
+          border-bottom: 3px solid #d1d1d1;
+
+          &:first-child {
+              border-top-left-radius: 12px; /* Bordes redondeados */
+          }
+
+          &:last-child {
+              border-top-right-radius: 12px; /* Bordes redondeados */
+          }
+      }
+
+      td {
+          padding: 12px; /* Aumento del padding */
+          font-size: 1rem; /* Tamaño de fuente más grande */
+          color: #555; /* Color de texto más suave */
+          border-bottom: 1px solid #e0e0e0; /* Cambio en el color de la línea */
+      }
+
+      background-color: #f9f9f9; /* Fondo de la tabla más claro */
+
+      tr:hover {
+          background-color: #f0f0f0; /* Color de fondo más suave al pasar el ratón */
+      }
+  }
+
+  .pokemon-link {
+      color: #1e88e5; /* Color del enlace */
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+          color: #1565c0; /* Color más oscuro al pasar el ratón */
+      }
+  }
+
+  button {
+      padding: 8px 15px; /* Aumento del padding */
+      font-size: 1rem; /* Tamaño de fuente más grande */
+      background-color: #f44336; /* Color de fondo rojo */
+      color: white;
+      border: none;
+      border-radius: 8px; /* Bordes más redondeados */
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease; /* Añadido efecto de transformación */
+
+      &:hover {
+          background-color: #d32f2f; /* Color más oscuro al pasar el ratón */
+          transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+      }
+  }
+}

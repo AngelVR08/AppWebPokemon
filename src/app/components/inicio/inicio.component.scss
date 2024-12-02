@@ -1,0 +1,81 @@
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Cambié a una fuente moderna y elegante */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('https://wallpapers.com/images/hd/pikachu-4k-and-pokemon-cousins-field-trip-03fs1oq9pudixw79.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #eaeaea; /* Color de texto más suave */
+}
+
+header {
+    padding: 2.5rem;
+    background-color: rgba(185, 117, 9, 0.8); /* Overlay negro más oscuro */
+    color: #f0f0f0;
+    margin-bottom: 3rem;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem; /* Tamaño de fuente más grande */
+    font-weight: 800; /* Mayor negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Mayor altura del contenedor principal */
+}
+
+.btn-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem; /* Mayor margen superior */
+}
+
+button {
+    padding: 1rem 2.5rem; /* Aumento de padding */
+    font-size: 1.1rem; /* Tamaño de fuente más grande */
+    border: none;
+    border-radius: 8px; /* Bordes más redondeados */
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; /* Transición más suave */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+}
+
+button:hover {
+    transform: translateY(-3px); /* Efecto de elevación */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Sombra más intensa al pasar el ratón */
+}
+
+.btn-primary {
+    background-color: #468ee5; /* Color azul más profundo */
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #468ee5; /* Color más oscuro al pasar el ratón */
+}
+
+.btn-secondary {
+    background-color: #FFC400; /* Color verde más brillante */
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #FFC400; /* Color más oscuro al pasar el ratón */
+}
+
+footer {
+    padding: 1.5rem;
+    background-color: rgba(185, 117, 9, 0.8); /* Overlay negro más oscuro */
+    color: #f0f0f0;
+    margin-top: 3rem; /* Mayor margen superior */
+    border-radius: 10px; /* Bordes redondeados */
+}

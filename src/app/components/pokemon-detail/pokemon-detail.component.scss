@@ -1,0 +1,75 @@
+:host {
+  display: block;
+  max-width: 600px;
+  margin: 2.5rem auto; /* Aumento del margen superior */
+  padding: 2rem; /* Aumento del padding */
+  border-radius: 10px; /* Bordes más redondeados */
+  background-color: #ffffff; /* Fondo blanco para mayor claridad */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Fuente más moderna */
+
+  h2 {
+      font-size: 2.5rem; /* Tamaño de fuente más grande */
+      font-weight: 700; /* Mayor negrita */
+      color: #4a90e2; /* Color azul más suave */
+      margin-bottom: 1.5rem; /* Aumento del margen inferior */
+  }
+
+  .error-message {
+      color: #e53935; /* Color rojo más vibrante */
+      font-size: 1.3rem; /* Tamaño de fuente más grande */
+      font-weight: 500;
+      margin: 1rem 0; /* Añadido margen superior e inferior */
+  }
+
+  h3 {
+      color: #546e7a; /* Color gris más suave */
+      font-size: 1.6rem; /* Tamaño de fuente más grande */
+      margin-top: 2rem; /* Aumento del margen superior */
+  }
+
+  img {
+      margin: 0.5rem;
+      max-width: 150px; /* Aumento del tamaño máximo */
+      border-radius: 10px; /* Bordes más redondeados */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+      transition: transform 0.3s ease; /* Transición suave para efectos */
+  }
+
+  img:hover {
+      transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+  }
+
+  ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1rem; /* Tamaño de fuente más grande */
+
+      li {
+          padding: 0.75rem 0; /* Aumento del padding */
+          color: #607d8b; /* Color de texto suave */
+          transition: color 0.3s ease; /* Transición suave para efectos */
+      }
+
+      li:hover {
+          color: #4a90e2; /* Cambio de color al pasar el ratón */
+      }
+  }
+
+  button {
+      padding: 8px 15px; /* Aumento del padding */
+      font-size: 1rem; /* Tamaño de fuente más grande */
+      background-color: #f44336; /* Color de fondo rojo */
+      color: white;
+      border: none;
+      border-radius: 8px; /* Bordes más redondeados */
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease; /* Añadido efecto de transformación */
+
+      &:hover {
+          background-color: #d32f2f; /* Color más oscuro al pasar el ratón */
+          transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+      }
+  }
+}
